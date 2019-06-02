@@ -3,8 +3,7 @@ class Hash
   def keys_of(*arguments)
     array = []
     self.each do |k,v|
-      puts "#{k} = #{v}"
-      arguments.each do |item|
+     arguments.each do |item|
         if (v==item)
           array.push(k)
         end  
