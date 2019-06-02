@@ -1,6 +1,12 @@
 class Hash
   
-  def keys_of(arguments)
+  def keys_of(*arguments)
+    
+    arguments.each do |item|
+      puts item
+      
+    end
+    
     puts self
     array = []
     self.each do |k,v|
