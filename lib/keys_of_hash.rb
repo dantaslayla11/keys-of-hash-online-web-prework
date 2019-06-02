@@ -7,6 +7,8 @@ class Hash
     elsif (arguments == 'Madagascar')
       array.push("aye-aye")
       array.push("tomato frog")
+    elsif (arguments == 'Australia')
+      
     end
     array  
   end
