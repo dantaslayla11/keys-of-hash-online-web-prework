@@ -3,6 +3,7 @@ class Hash
     array = []
     puts arguments
     if (arguments.equal?("Panama"))
+      puts "fuck nigga"
       array.push("red-footed tortoise") 
     end
     array  
