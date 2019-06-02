@@ -1,7 +1,9 @@
 class Hash
   def keys_of(args*)
-   args.each do |k,v|
-     
+   array = []
+   args.keys.each do |element|
+     array.push(element)
   
   end
+  array
 end
