@@ -3,7 +3,7 @@ class Hash
   def keys_of(arguments)
     
     
-    puts animals
+    puts kanimals
     array = []
     if (arguments== 'Panama')
       array.push("red-footed tortoise") 
