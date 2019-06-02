@@ -5,7 +5,8 @@ class Hash
     if (arguments== 'Panama')
       array.push("red-footed tortoise") 
     elseif (arguments == 'Madagascar')
-      array.push("")
+      array.push("aye-aye")
+      array.push("tortoise")
     end
     array  
   end
