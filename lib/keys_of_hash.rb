@@ -11,9 +11,11 @@ class Hash
     array = []
     self.each do |k,v|
       puts "#{k} = #{v}"
-      if (v==arguments)
-        array.push(k)
-      end  
+      arguments.each do |item|
+        if (v==item)
+          array.push(k)
+        end  
+      end
     end
     array
   end
