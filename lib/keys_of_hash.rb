@@ -5,7 +5,10 @@ class Hash
     array = []
     self.each do |k,v|
       puts "#{k} = #{v}"
-      
+      if (v==arguments)
+        array.push(k)
+      end  
     end
+    array
   end
 end
