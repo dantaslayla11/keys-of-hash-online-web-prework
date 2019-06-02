@@ -4,7 +4,7 @@ class Hash
     array = []
     if (arguments== 'Panama')
       array.push("red-footed tortoise") 
-    elseif (arguments == 'Madagascar')
+    elsif (arguments == 'Madagascar')
       array.push("aye-aye")
       array.push("tomato frog")
     end
