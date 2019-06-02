@@ -2,8 +2,6 @@ class Hash
   
   def keys_of(arguments)
     
-    
-    puts kanimals
     array = []
     if (arguments== 'Panama')
       array.push("red-footed tortoise") 
@@ -11,7 +9,7 @@ class Hash
       array.push("aye-aye")
       array.push("tomato frog")
     elsif (arguments == 'Australia')
-      
+       
     end
     array  
   end
