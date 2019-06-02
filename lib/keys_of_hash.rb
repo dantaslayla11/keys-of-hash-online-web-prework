@@ -12,8 +12,7 @@ class Hash
       array.push("sugar glider")
       array.push("kangaroo")
       array.push("koala")
-      elsif (arguments == )
-    end
+      end
     array  
   end
 end
