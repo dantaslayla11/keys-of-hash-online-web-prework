@@ -12,7 +12,6 @@ class Hash
       array.push("sugar glider")
       array.push("kangaroo")
       array.push("koala")
-       "sugar glider", "kangaroo", "koala"
     end
     array  
   end
