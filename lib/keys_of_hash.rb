@@ -5,6 +5,7 @@ class Hash
     array = []
     self.each do |k,v|
       puts "#{k} = #{v}"
+      
     end
   end
 end
