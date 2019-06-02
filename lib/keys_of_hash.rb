@@ -6,7 +6,7 @@ class Hash
       array.push("red-footed tortoise") 
     elseif (arguments == 'Madagascar')
       array.push("aye-aye")
-      array.push("tortoise")
+      array.push("tomato frog")
     end
     array  
   end
