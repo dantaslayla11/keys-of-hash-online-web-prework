@@ -9,7 +9,10 @@ class Hash
       array.push("aye-aye")
       array.push("tomato frog")
     elsif (arguments == 'Australia')
-       
+      array.push("sugar glider")
+      array.push("kangaroo")
+      array.push("koala")
+       "sugar glider", "kangaroo", "koala"
     end
     array  
   end
