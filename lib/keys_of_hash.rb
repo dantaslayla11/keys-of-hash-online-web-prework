@@ -4,6 +4,7 @@ class Hash
    args.keys.each do |element|
      array.push(element)
   
+   end
+   array
   end
-  array
 end
